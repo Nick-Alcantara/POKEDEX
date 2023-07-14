@@ -1,0 +1,29 @@
+/* Estilos responsivos para dispositivos móveis */
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #search-input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #search-form button {
+    width: 100%;
+  }
+
+  #pokedex-list {
+    justify-content: space-around;
+  }
+
+  #pokemon-info {
+    margin-top: 40px;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+}
